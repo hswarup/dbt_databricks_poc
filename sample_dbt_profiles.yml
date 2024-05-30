@@ -1,0 +1,11 @@
+dbt_databricks_proj:
+  outputs:
+    poc_databricks:
+      catalog: samples
+      host: adb-469278***64774.14.azuredatabricks.net
+      http_path: sql/protocolv1/o/469278326464774/0521-***-juvpona8
+      schema: tpch
+      threads: 1
+      token: dapi***f00
+      type: databricks
+  target: poc_databricks
